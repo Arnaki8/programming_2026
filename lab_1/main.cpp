@@ -54,17 +54,17 @@ int main() {
     
     cout << "float" << endl;
     cout << "  Размер: " << sizeof(float) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<float>::min() << endl;
+    cout << "  Мин: " << numeric_limits<float>::lowest() << endl;
     cout << "  Макс: " << numeric_limits<float>::max() << endl << endl;
     
     cout << "double" << endl;
     cout << "  Размер: " << sizeof(double) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<double>::min() << endl;
+    cout << "  Мин: " << numeric_limits<double>::lowest() << endl;
     cout << "  Макс: " << numeric_limits<double>::max() << endl << endl;
     
     cout << "long double" << endl;
     cout << "  Размер: " << sizeof(long double) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<long double>::min() << endl;
+    cout << "  Мин: " << numeric_limits<long double>::lowest() << endl;
     cout << "  Макс: " << numeric_limits<long double>::max() << endl << endl;
     
 
@@ -84,8 +84,8 @@ int main() {
     cout << a / b << endl;
     cout << a % b << endl << endl;
 
-    float c = 9;
-    float d = 2;
+    float c = 11.f;
+    float d = 4.f;
     
     cout << c / d << endl << endl;
 
