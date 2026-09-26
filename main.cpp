@@ -72,7 +72,35 @@ int main() {
     
     cout << "bool" << endl;
     cout << "  Размер: " << sizeof(bool) << " байт" << endl;
-    cout << "  Значения: 0 (false) или 1 (true)" << endl;
+    cout << "  Значения: 0 (false) или 1 (true)" << endl << endl;
+
+
+    int a = 9;
+    int b = 2;
+
+    cout << a + b << endl;
+    cout << a - b << endl;
+    cout << a * b << endl;
+    cout << a / b << endl;
+    cout << a % b << endl << endl;
+
+    float c = 9;
+    float d = 2;
+    
+    cout << c / d << endl << endl;
+
+    bool m = true;
+    bool n = false;
+
+    cout << (m && n) << endl;
+    cout << (m || n) << endl;
+    cout << (!n) << endl << endl;
+
+    cout << (a == b) << endl;
+    cout << (a != b) << endl;
+    cout << (a < b) << endl;
+    cout << (a > b) << endl;
+
     
     return 0;
 }
