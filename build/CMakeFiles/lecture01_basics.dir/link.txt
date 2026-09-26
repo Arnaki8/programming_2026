@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/lecture01_basics.dir/main.cpp.o -o lecture01_basics 

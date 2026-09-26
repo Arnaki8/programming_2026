@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/workspaces/programming_2026/build",
+  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/lecture01_basics.dir/main.cpp.o -c /workspaces/programming_2026/lab_2/main.cpp",
+  "file": "/workspaces/programming_2026/lab_2/main.cpp",
+  "output": "CMakeFiles/lecture01_basics.dir/main.cpp.o"
+}
+]
