@@ -29,16 +29,18 @@ int main()
 
       // Сумма цифр числа x.
       int sx = 0;
-      while (x > 0) {
-        sx += x % 10;
-        x /= 10;
+      int tempx = x;
+      while (tempx > 0) {
+        sx += tempx % 10;
+        tempx /= 10;
       }
 
       // Сумма цифр числа y.
       int sy = 0;
-      while (y > 0) {
-        sy += y % 10;
-        y /= 10;
+      int tempy = y;
+      while (tempy > 0) {
+        sy += tempy % 10;
+        tempy /= 10;
       }
 
       // Произведение цифр числа x.
