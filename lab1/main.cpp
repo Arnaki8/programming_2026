@@ -1,105 +1,99 @@
 #include <iostream>
 #include <limits>
-using namespace std;
 
 
 int main() {
-    cout << "=== ЦЕЛОЧИСЛЕННЫЕ ТИПЫ ===" << endl;
+    std::cout << "=== ЦЕЛОЧИСЛЕННЫЕ ТИПЫ ===" << std::endl;
     
-    cout << "short" << endl;
-    cout << "  Размер: " << sizeof(short) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<short>::min() << endl;
-    cout << "  Макс: " << numeric_limits<short>::max() << endl << endl;
+    std::cout << "short" << std::endl;
+    std::cout << "  Размер: " << sizeof(short) << " байт" << std::endl;
+    std::cout << "  Мин: " << std::numeric_limits<short>::min() << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<short>::max() << std::endl << std::endl;
     
-    cout << "int" << endl;
-    cout << "  Размер: " << sizeof(int) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<int>::min() << endl;
-    cout << "  Макс: " << numeric_limits<int>::max() << endl << endl;
+    std::cout << "int" << std::endl;
+    std::cout << "  Размер: " << sizeof(int) << " байт" << std::endl;
+    std::cout << "  Мин: " << std::numeric_limits<int>::min() << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<int>::max() << std::endl << std::endl;
     
-    cout << "long" << endl;
-    cout << "  Размер: " << sizeof(long) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<long>::min() << endl;
-    cout << "  Макс: " << numeric_limits<long>::max() << endl << endl;
-    
-    cout << "long long" << endl;
-    cout << "  Размер: " << sizeof(long long) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<long long>::min() << endl;
-    cout << "  Макс: " << numeric_limits<long long>::max() << endl << endl;
+    std::cout << "long long" << std::endl;
+    std::cout << "  Размер: " << sizeof(long long) << " байт" << std::endl;
+    std::cout << "  Мин: " << std::numeric_limits<long long>::min() << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<long long>::max() << std::endl << std::endl;
 
-    cout << "unsigned short" << endl;
-    cout << "  Размер: " << sizeof(unsigned short) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<unsigned short>::min() << endl;
-    cout << "  Макс: " << numeric_limits<unsigned short>::max() << endl << endl;
+    std::cout << "unsigned short" << std::endl;
+    std::cout << "  Размер: " << sizeof(unsigned short) << " байт" << std::endl;
+    std::cout << "  Мин: " << std::numeric_limits<unsigned short>::min() << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<unsigned short>::max() << std::endl << std::endl;
     
-    cout << "unsigned int" << endl;
-    cout << "  Размер: " << sizeof(unsigned int) << " байт" << endl;
-    cout << "  Мин: " << 0 << endl;
-    cout << "  Макс: " << numeric_limits<unsigned int>::max() << endl << endl;
+    std::cout << "unsigned int" << std::endl;
+    std::cout << "  Размер: " << sizeof(unsigned int) << " байт" << std::endl;
+    std::cout << "  Мин: " << 0 << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<unsigned int>::max() << std::endl << std::endl;
     
-    cout << "unsigned long long" << endl;
-    cout << "  Размер: " << sizeof(unsigned long long) << " байт" << endl;
-    cout << "  Мин: " << 0 << endl;
-    cout << "  Макс: " << numeric_limits<unsigned long long>::max() << endl << endl;
+    std::cout << "unsigned long long" << std::endl;
+    std::cout << "  Размер: " << sizeof(unsigned long long) << " байт" << std::endl;
+    std::cout << "  Мин: " << 0 << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<unsigned long long>::max() << std::endl << std::endl;
     
 
-    cout << "=== СИМВОЛЬНЫЙ ТИП ===" << endl;
+    std::cout << "=== СИМВОЛЬНЫЙ ТИП ===" << std::endl;
     
-    cout << "char" << endl;
-    cout << "  Размер: " << sizeof(char) << " байт" << endl;
-    cout << "  Мин: " << (int)numeric_limits<char>::min() << endl;
-    cout << "  Макс: " << (int)numeric_limits<char>::max() << endl << endl;
-    
-
-    cout << "=== ВЕЩЕСТВЕННЫЕ ТИПЫ ===" << endl;
-    
-    cout << "float" << endl;
-    cout << "  Размер: " << sizeof(float) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<float>::lowest() << endl;
-    cout << "  Макс: " << numeric_limits<float>::max() << endl << endl;
-    
-    cout << "double" << endl;
-    cout << "  Размер: " << sizeof(double) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<double>::lowest() << endl;
-    cout << "  Макс: " << numeric_limits<double>::max() << endl << endl;
-    
-    cout << "long double" << endl;
-    cout << "  Размер: " << sizeof(long double) << " байт" << endl;
-    cout << "  Мин: " << numeric_limits<long double>::lowest() << endl;
-    cout << "  Макс: " << numeric_limits<long double>::max() << endl << endl;
+    std::cout << "char" << std::endl;
+    std::cout << "  Размер: " << sizeof(char) << " байт" << std::endl;
+    std::cout << "  Мин: " << (int)std::numeric_limits<char>::min() << std::endl;
+    std::cout << "  Макс: " << (int)std::numeric_limits<char>::max() << std::endl << std::endl;
     
 
-    cout << "=== ЛОГИЧЕСКИЙ ТИП ===" << endl;
+    std::cout << "=== ВЕЩЕСТВЕННЫЕ ТИПЫ ===" << std::endl;
     
-    cout << "bool" << endl;
-    cout << "  Размер: " << sizeof(bool) << " байт" << endl;
-    cout << "  Значения: 0 (false) или 1 (true)" << endl << endl;
+    std::cout << "float" << std::endl;
+    std::cout << "  Размер: " << sizeof(float) << " байт" << std::endl;
+    std::cout << "  Мин: " << std::numeric_limits<float>::lowest() << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<float>::max() << std::endl << std::endl;
+    
+    std::cout << "double" << std::endl;
+    std::cout << "  Размер: " << sizeof(double) << " байт" << std::endl;
+    std::cout << "  Мин: " << std::numeric_limits<double>::lowest() << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<double>::max() << std::endl << std::endl;
+    
+    std::cout << "long double" << std::endl;
+    std::cout << "  Размер: " << sizeof(long double) << " байт" << std::endl;
+    std::cout << "  Мин: " << std::numeric_limits<long double>::lowest() << std::endl;
+    std::cout << "  Макс: " << std::numeric_limits<long double>::max() << std::endl << std::endl;
+    
+
+    std::cout << "=== ЛОГИЧЕСКИЙ ТИП ===" << std::endl;
+    
+    std::cout << "bool" << std::endl;
+    std::cout << "  Размер: " << sizeof(bool) << " байт" << std::endl;
+    std::cout << "  Значения: 0 (false) или 1 (true)" << std::endl << std::endl;
 
 
     int a = 9;
     int b = 2;
 
-    cout << a + b << endl;
-    cout << a - b << endl;
-    cout << a * b << endl;
-    cout << a / b << endl;
-    cout << a % b << endl << endl;
+    std::cout << a + b << std::endl;
+    std::cout << a - b << std::endl;
+    std::cout << a * b << std::endl;
+    std::cout << a / b << std::endl;
+    std::cout << a % b << std::endl << std::endl;
 
     float c = 11.f;
     float d = 4.f;
     
-    cout << c / d << endl << endl;
+    std::cout << c / d << std::endl << std::endl;
 
     bool m = true;
     bool n = false;
 
-    cout << (m && n) << endl;
-    cout << (m || n) << endl;
-    cout << (!n) << endl << endl;
+    std::cout << (m && n) << std::endl;
+    std::cout << (m || n) << std::endl;
+    std::cout << (!n) << std::endl << std::endl;
 
-    cout << (a == b) << endl;
-    cout << (a != b) << endl;
-    cout << (a < b) << endl;
-    cout << (a > b) << endl;
+    std::cout << (a == b) << std::endl;
+    std::cout << (a != b) << std::endl;
+    std::cout << (a < b) << std::endl;
+    std::cout << (a > b) << std::endl;
 
     
     return 0;
